@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shofiqul</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    
+</head>
+<body data-theme="dark">
+    <!-- Security Message -->
+    <div class="security-message" id="securityMessage">
+        <i class="fas fa-shield-alt"></i>
+        <h3>Content Protection Active</h3>
+        <p>This content is protected. Copying is disabled.</p>
+    </div>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-to-top" id="scrollToTop">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- Header - Always Visible -->
+    <header>
+        <div class="logo">Welcome</div>
+        <nav>
+            <ul>
+                <li><a href="#home"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="#education"><i class="fas fa-graduation-cap"></i> Education</a></li>
+                <li><a href="#skills"><i class="fas fa-code"></i> Skills</a></li>
+                <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+                <li class="theme-toggle-container">
+                    <div class="theme-toggle" id="themeToggle">
+                        <i class="fas fa-sun sun-icon theme-icon"></i>
+                        <i class="fas fa-moon moon-icon theme-icon"></i>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+        <div class="website-links">
+            <a href="https://shofiqul8008.github.io/my/" class="website-link primary" target="_blank">
+                <i class="fas fa-globe"></i> Primary Website
+            </a>
+            <a href="https://shofiqul8008.github.io/abid/" class="website-link" target="_blank">
+                <i class="fas fa-laptop-code"></i> Second Website
+            </a>
+        </div>
+        <div class="menu-toggle" id="menuToggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+
+    <!-- Mobile Navigation -->
+    <div class="mobile-nav" id="mobileNav">
+        <ul>
+            <li><a href="#home"><i class="fas fa-home"></i> Home</a></li>
+            <li><a href="#education"><i class="fas fa-graduation-cap"></i> Education</a></li>
+            <li><a href="#skills"><i class="fas fa-code"></i> Skills</a></li>
+            <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+        </ul>
+        
+        <div class="mobile-theme-toggle">
+            <span><i class="fas fa-palette"></i> Theme</span>
+            <div class="theme-toggle" id="mobileThemeToggle">
+                <i class="fas fa-sun sun-icon theme-icon"></i>
+                <i class="fas fa-moon moon-icon theme-icon"></i>
+            </div>
+        </div>
+        
+        <div class="mobile-websites">
+            <h3><i class="fas fa-external-link-alt"></i> My Websites</h3>
+            <a href="https://shofiqul8008.github.io/my/" class="mobile-website-link primary" target="_blank">
+                <i class="fas fa-globe"></i> Primary Website
+            </a>
+            <a href="https://shofiqul8008.github.io/abid/" class="mobile-website-link" target="_blank">
+                <i class="fas fa-laptop-code"></i> Second Website
+            </a>
+        </div>
+    </div>
+    <div class="overlay" id="overlay"></div>
+
+    <div class="container">
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+            <div class="hero-content fade-in">
+                <div class="profile-container">
+                    <img src="abid.jpg" alt="Shofiqul" class="profile-picture no-copy">
+                </div>
+                <h1 class="no-copy">Hi, I'm <span class="name">Shofiqul</span></h1>
+                <p class="no-copy">Welcome to my website. I'm a student currently pursuing my education at Jhaudia College with a passion for learning and growth.</p>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section class="education-section" id="education">
+            <h2 class="section-title fade-in no-copy">My Education Journey</h2>
+            <div class="education-cards">
+                <div class="card fade-in delay-1">
+                    <h3 class="no-copy"><i class="fas fa-graduation-cap"></i> Secondary School</h3>
+                    <p class="no-copy">Successfully completed my secondary education at Jhaudia Bazaar Secondary High School, building a strong academic foundation for my future studies.</p>
+                    <div class="education-details">
+                        <div class="detail-item no-copy">Graduated: 2023</div>
+                        <div class="detail-item no-copy">Session: 2022-2023</div>
+                        <div class="detail-item no-copy">Jhaudia Bazaar Secondary High School</div>
+                    </div>
+                </div>
+                
+                <div class="card fade-in delay-2">
+                    <h3 class="no-copy"><i class="fas fa-university"></i> College Education</h3>
+                    <p class="no-copy">Currently expanding my knowledge and skills at Jhaudia College, focusing on academic excellence and personal development for future opportunities.</p>
+                    <div class="education-details">
+                        <div class="detail-item no-copy">Enrolled: 2024</div>
+                        <div class="detail-item no-copy">Jhaudia College</div>
+                        <div class="detail-item no-copy">Higher Education</div>
+                    </div>
+                    <div class="current-status no-copy">
+                        <i class="fas fa-spinner fa-pulse"></i> Currently Studying Here
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="skills-section" id="skills">
+            <h2 class="section-title fade-in no-copy">My Skills</h2>
+            <div class="skills-container">
+                <div class="skill-category fade-in delay-1">
+                    <h3 class="no-copy"><i class="fas fa-code"></i> Technical Skills</h3>
+                    <ul class="skill-list">
+                        <li class="no-copy"><i class="fas fa-check-circle"></i> Web Development</li>
+                        <li class="no-copy"><i class="fas fa-check-circle"></i> HTML & CSS</li>
+                        <li class="no-copy"><i class="fas fa-check-circle"></i> C++</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact-section" id="contact">
+            <h2 class="section-title fade-in no-copy">Get In Touch</h2>
+            
+            <div class="contact-grid">
+                <div class="contact-card fade-in delay-1">
+                    <div class="contact-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <h3 class="no-copy">Email</h3>
+                    <p class="no-copy">Send me an email directly</p>
+                    <a href="mailto:shofiqul8008@gmail.com" class="contact-btn">Send Email</a>
+                </div>
+                
+                <div class="contact-card fade-in delay-2">
+                    <div class="contact-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h3 class="no-copy">Website</h3>
+                    <p class="no-copy">Visit my personal website</p>
+                    <a href="https://shofiqul8008.github.io/my/" class="contact-btn" target="_blank">Visit Website</a>
+                </div>
+                
+                <div class="contact-card fade-in delay-3">
+                    <div class="contact-icon">
+                        <i class="fas fa-comments"></i>
+                    </div>
+                    <h3 class="no-copy">Social Media</h3>
+                    <p class="no-copy">Connect with me on social platforms</p>
+                    <a href="https://www.facebook.com/shofiqul404" class="contact-btn" target="_blank">Connect</a>
+                </div>
+            </div>
+            
+            <div class="social-links">
+                <a href="https://t.me/shofiqul8008" class="social-btn telegram fade-in delay-2" target="_blank">
+                    <i class="fab fa-telegram"></i> Telegram
+                </a>
+                <a href="https://wa.me/+8801616405964" class="social-btn whatsapp fade-in delay-3" target="_blank">
+                    <i class="fab fa-whatsapp"></i> WhatsApp
+                </a>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <p class="no-copy">&copy; 2025 Shofiqul. All Rights Reserved.</p>
+        </footer>
+    </div>
+
+    <script src="game.js"></script>
+</body>
+</html>
